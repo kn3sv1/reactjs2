@@ -5,12 +5,23 @@
     <title>Hello React</title>
 </head>
 <body>
-    <div id="app"></div>
+    <div id="header"></div>
+    <div id="header2"></div>
+    <div id="container"></div>
       
     <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.25.0/babel.min.js"></script>
     <script type="text/babel">
+        const element = <h1>Hello React123!</h1>;
+        ReactDOM.render(
+            element, 
+            document.getElementById("header")
+        );
+        ReactDOM.render(
+            <h1>Hello React77777!</h1>, 
+            document.getElementById("header2")
+        );
         ReactDOM.render(
             <div id="items">
                 <h2>Список телефонов</h2>
@@ -21,7 +32,7 @@
                     <li>Pixel XL</li>
                 </ul>
             </div>,
-            document.getElementById("app"),
+            document.getElementById("container"),
             function(){ console.log("рендеринг элемента React");}
         )
     </script>
