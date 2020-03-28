@@ -10,7 +10,7 @@ const mapStateToProps = (state) => (
 
 const mapDispatchToProps = (dispatch) => (
   {
-    fetchPlanets: () => dispatch(PlanetAction.fetchPlanets())
+    fetchPlanets222: () => dispatch(PlanetAction.fetchPlanets())
   }
 );
 

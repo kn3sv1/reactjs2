@@ -5,7 +5,7 @@ import PlanetItem from './PlanetItem';
 
 export default class PlanetApp extends Component {
   componentDidMount() {
-    this.props.fetchPlanets();
+    this.props.fetchPlanets222();
   }
 
   render() {
@@ -42,5 +42,5 @@ PlanetApp.propTypes = {
     name: PropTypes.string.isRequired,
     imgUrl: PropTypes.string.isRequired
   })),
-  fetchPlanets: PropTypes.func.isRequired
+  fetchPlanets222: PropTypes.func.isRequired
 };
