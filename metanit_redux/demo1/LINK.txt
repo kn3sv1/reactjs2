@@ -1,0 +1,3 @@
+https://metanit.com/web/react/5.3.php
+
+http://getinstance.info/articles/react/learning-react-redux/
